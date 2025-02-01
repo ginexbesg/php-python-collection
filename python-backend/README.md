@@ -1,6 +1,7 @@
 python -m venv venv
 source venv/Scripts/activate
 pip install flask flask-cors
+python -m pip install mysql-connector-python
 python app.py
 
 from postman call APIs
